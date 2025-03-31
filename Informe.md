@@ -16,16 +16,20 @@ Realizar una actividad práctica con una ESP32, estudiando su rendimiento en dis
 **SECCION: Benchmarks de terceros**
 
 Alguno de los Benchmarks mas utilizados, para medir rendimiento en un PC son:
-SPEC CPU: Centrado en pruebas de computacion pura (calculos) y no esta orientado a aplicaciones graficas o de uso diarios.
-Geekbench: Enfoque multiplataforma y simplificado en la ejecucion, lo cual lo hace ideal para usuarios que buscan resultados rapidos y comparables entre distintos dispositivos.
-Cinebench: Se centra exclusivamente en el rendimiento en renderizado 3D, ofreciendo una metrica especifica para aplicaciones creativas.
-3DMark: Su enfoque esta en el rendimiento de la tarjeta grafica y la experiencia de juego, a diferencia de los benchmarks puramente orientados a la CPU.
-PCMark: Se centra en el rendimiento global del sistema, evaluando hardware y software en contextos de uso real.
+- **SPEC CPU:** Centrado en pruebas de computacion pura (calculos) y no esta orientado a aplicaciones graficas o de uso diarios.
+- **Geekbench:** Enfoque multiplataforma y simplificado en la ejecucion, lo cual lo hace ideal para usuarios que buscan resultados rapidos y comparables entre distintos dispositivos.
+- **Cinebench:** Se centra exclusivamente en el rendimiento en renderizado 3D, ofreciendo una metrica especifica para aplicaciones creativas.
+- **3DMark:** Su enfoque esta en el rendimiento de la tarjeta grafica y la experiencia de juego, a diferencia de los benchmarks puramente orientados a la CPU.
+- **PCMark:** Se centra en el rendimiento global del sistema, evaluando hardware y software en contextos de uso real.
 
 Según nuestro punto de vista, los benchmarks más útiles podrían ser Geekbench o PCMark. 
 PCMark es generalmente el benchmark más adecuado para medir el rendimiento en tareas diarias, ya que simula escenarios de uso real. Mientras que Geekbench también puede ser útil para tener una idea rápida de la capacidad de procesamiento general del sistema.
 
+![Cuadro_Comparativo](Cuadro_Comparativo.png)
+
 A la hora de compilar el kernel de linux con los procesadores Intel Core i5-13600K, AMD Ryzen 9 5900X 12-Core y AMD Ryzen 9 7950X 16-Core, se obtienen los siguientes tiempos
+
+![Comparacion kernel](Comparacion kernel.png)
 
 
 **SECCION: ESP32**
