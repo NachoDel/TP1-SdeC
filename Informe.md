@@ -25,7 +25,7 @@ Alguno de los Benchmarks mas utilizados, para medir rendimiento en un PC son:
 Según nuestro punto de vista, los benchmarks más útiles podrían ser Geekbench o PCMark. 
 PCMark es generalmente el benchmark más adecuado para medir el rendimiento en tareas diarias, ya que simula escenarios de uso real. Mientras que Geekbench también puede ser útil para tener una idea rápida de la capacidad de procesamiento general del sistema.
 
-![Cuadro_Comparativo](Cuadro_Comparativo.png)
+![cuadro comp benchmarks](cuadro comp benchmarks.png)
 
 A la hora de compilar el kernel de linux con los procesadores Intel Core i5-13600K, AMD Ryzen 9 5900X 12-Core y AMD Ryzen 9 7950X 16-Core, se obtienen los siguientes tiempos
 
