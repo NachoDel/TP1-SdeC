@@ -49,14 +49,15 @@ A la hora de compilar el kernel de linux con los procesadores Intel Core i5-1360
 **Consigna 2:**
 
 Vamos a empezar por una frecuencia de 80 [MHz] en la ESP32:
-
+![ESP_80MHz](ESP_80MHz.png)
 Mejorando a una frecuencia de 160 [MHz]:
-
+![ESP_160MHz](ESP_160MHz.png)
 Y aumentando a una frecuencia de 240 [MHz]:
+![ESP_240MHz](ESP_240MHz.png)
 
 
 Con esto, generamos una tabla para poder observar el rendimiento, el speedup y la eficiencia:
-
+![Cuadro](Cuadro_Comparativo.png)
 De acá podemos observar cómo a medida que aumentamos la frecuencia del ESP32, aumenta la velocidad de procesamiento, el rendimiento y el speedup. También podemos observar cómo se mantiene la eficiencia para las mejoras 1 y 2.
 
 
