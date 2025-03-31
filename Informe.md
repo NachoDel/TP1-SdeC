@@ -240,5 +240,9 @@ Dicho archivo es posible resumirlo de distintas maneras y optamos por graficarlo
 
 Gráfico generado:  muestra la relación entre funciones y el tiempo que consumen en la ejecución del programa.
 
+![Datos](https://github.com/NachoDel/TP1-SdeC/blob/main/Imagen.jpeg)
+
+
+
 
 
