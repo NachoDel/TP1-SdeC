@@ -50,8 +50,10 @@ A la hora de compilar el kernel de linux con los procesadores Intel Core i5-1360
 
 Vamos a empezar por una frecuencia de 80 [MHz] en la ESP32:
 ![ESP_80MHz](ESP_80MHz.png)
+
 Mejorando a una frecuencia de 160 [MHz]:
 ![ESP_160MHz](ESP_160MHz.png)
+
 Y aumentando a una frecuencia de 240 [MHz]:
 ![ESP_240MHz](ESP_240MHz.png)
 
