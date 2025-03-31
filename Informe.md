@@ -13,25 +13,7 @@ Realizar una actividad práctica con una ESP32, estudiando su rendimiento en dis
 
 ## Desarrollo
 
-**Consigna 1:**
-En un informe deberán responder a las siguientes preguntas y mostrar con capturas de pantalla la realización del tutorial descripto en time profiling adjuntando las conclusiones sobre el uso del tiempo de las funciones.
-
-Armar una lista de benchmarks, ¿cuales les serían más útiles a cada uno ? ¿Cuáles podrían llegar a medir mejor las tareas que ustedes realizan a diario ? 
-
-Pensar en las tareas que cada uno realiza a diario y escribir en una tabla de dos entradas las tareas y que benchmark la representa mejor.
-
-Cual es el rendimiento de estos procesadores para compilar el kernel de linux ?
-Intel Core i5-13600K
-AMD Ryzen 9 5900X 12-Core
-Cual es la aceleración cuando usamos un AMD Ryzen 9 7950X 16-Core
-https://openbenchmarking.org/test/pts/build-linux-kernel-1.15.0
-
-El trabajo es grupal. Los grupos son de hasta tres personas. Cada grupo puede tener hasta una persona cursando ingeniería electrónica. 
-Deben colocar sus nombres y el nombre de sus grupos en el archivo cronograma y grupos.
-Cada uno de los integrantes tendrá un repositorio individual sincronizado con el resto de su equipo.
-En el archivo resultados deben colocar los resultados de las mediciones de sus computadoras de manera indiviudal
-
-
+**SECCION: Benchmarks de terceros**
 
 Alguno de los Benchmarks mas utilizados, para medir rendimiento en un PC son:
 SPEC CPU: Centrado en pruebas de computacion pura (calculos) y no esta orientado a aplicaciones graficas o de uso diarios.
@@ -46,7 +28,7 @@ PCMark es generalmente el benchmark más adecuado para medir el rendimiento en t
 A la hora de compilar el kernel de linux con los procesadores Intel Core i5-13600K, AMD Ryzen 9 5900X 12-Core y AMD Ryzen 9 7950X 16-Core, se obtienen los siguientes tiempos
 
 
-**Consigna 2:**
+**SECCION: ESP32**
 
 Vamos a empezar por una frecuencia de 80 [MHz] en la ESP32:
 ![ESP_80MHz](ESP_80MHz.png)
